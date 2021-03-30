@@ -1,0 +1,10 @@
+h1           { color: #000040; font-family: "Arial", sans-serif; font-size: 16pt; font-style: italic; text-align: left }
+h2           { color: #000040; font-family: "Arial", sans-serif; font-size: 14pt; font-style: italic; text-align: center }
+h3           { color: #000040; font-family: "Arial", sans-serif; font-size: 12pt; font-style: italic; text-align: left }
+h4           { color: #000040; font-family: font-family: "Arial", sans-serif; font-size: 12pt; font-style: italic; text-align: center }
+h5           { color: #000022; font-family: "Arial", sans-serif; font-size: 11pt; font-style: italic; text-align: right }
+li           { color: #000080; font-family: "Arial", sans-serif; font-size: 10pt; font-style: italic; text-align: left; list-style-type: disc }
+p            { color: #000000; font-family: font-family: "Arial", sans-serif; font-size: 10pt; text-align: left }
+body 	     { background-image: url(N1BG5.jpg); background-color: #FFFFFF }
+table        { border-collapse: collapse; border: 0px solid #000000}
+td	     { border: 0px solid #000000; padding: 0.1em; spacing 0.1em }

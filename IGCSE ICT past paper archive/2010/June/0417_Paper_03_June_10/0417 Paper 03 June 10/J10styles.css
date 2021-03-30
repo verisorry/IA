@@ -1,0 +1,9 @@
+h1           { color: #660000; font-family: Arial, sans-serif; font-size: 20pt; text-align: center }
+h2           { color: #660000; font-family: Arial, sans-serif; font-size: 15pt; text-align: left }
+h3           { color: #FF0000; font-family: Arial, sans-serif; font-size: 12pt; text-align: center }
+h4           { color: #FF0000; font-family: Arial, sans-serif; font-size: 12pt; text-align: center }
+h5           { color: #FF0000; font-family: Arial, sans-serif; font-size: 10pt; text-align: left }
+li           { color: #000000; font-family: "Times New Roman", serif; font-size: 12pt; text-align: left; font-style: italic; list-style-type: disc }
+p            { color: #8A2BE2; font-family: "Times New Roman", serif; font-size: 12pt; text-align: left }
+body 	     { background-color: #FFE4E1 }
+
