@@ -1,0 +1,10 @@
+cs ia: greenwood
+- grab individual questions + sub questions off of past paper pdfs
+- save as pic ie. '0425_01_xx_Q4a.png' '0425_01_xx_Q4b.png' OR save as long pic for questions with subparts --> add them together
+- save into folders based off of paper
+- make it into a script that gwood can run in a file
+	- gwood have a folder with all past paper pdfs --> run script --> sorted questions
+
+- extra; create questionbank gui AND/OR sort questions based off of subunits
+	- maybe gui with choices for input for year, paper, subunit and spits out questions
+	- watermark on image with paper code so students can know where he got them from

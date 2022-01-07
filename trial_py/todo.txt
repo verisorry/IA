@@ -1,0 +1,19 @@
+to do:
+- change code to accomodate CLI options
+	Folder with multiple Question Paper and Mark Scheme files
+	Single Question Paper file
+	Single Mark Scheme file
+	Pair of Question Paper and Mark Scheme
+- change code to accomodate CLI file output formats
+	jpg
+	png
+	pdf? / other
+- validation checks every where!
+- code up CLI
+
+
+PAPER CODE FORMAT:
+- spring and winter always 0417/12/F/M/17
+	f/m o/n
+- summer always 06_0417_12_2017_1.2
+

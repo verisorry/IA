@@ -1,8 +1,0 @@
-tap "homebrew/bundle"
-tap "homebrew/cask"
-tap "homebrew/core"
-brew "cmatrix"
-brew "nghttp2"
-brew "unbound"
-brew "emacs"
-brew "poppler"
