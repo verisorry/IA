@@ -18,7 +18,7 @@ def sorting_ms_dict(question_dict):
 	# print("ms dictionary sorted")
 	return (question_dict, pages_depth)
 
-def cropping_ms(paper_code, x, y, x2, y2, question_dict, pages_depth):
+def cropping_ms(paper_code, x, y, x2, y2, question_dict, pages_depth, output_format):
 	if not os.path.exists("MSResults"):
 		os.makedirs("MSResults")
 	for key in question_dict:
@@ -36,8 +36,8 @@ def cropping_ms(paper_code, x, y, x2, y2, question_dict, pages_depth):
 
 		else:
 			image = cv2.imread(question_dict[key][-1])
-		cv2.imwrite("MSResults/{}.jpg".format("_".join(paper_code)+"_Q" + str(key)), image)
-		cv2.imshow("MSResults/{}.jpg".format("_".join(paper_code)+"_Q" + str(key)), image)
+		cv2.imwrite("MSResults/{}.{}".format("_".join(paper_code)+"_Q" + str(key), output_format), image)
+		# cv2.imshow("MSResults/{}.{}".format("_".join(paper_code)+"_Q" + str(key), output_format), image)
 		# cv2.waitKey()
 
 

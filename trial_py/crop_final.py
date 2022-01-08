@@ -15,7 +15,7 @@ def output_crop(q_s_dict, output_type):
 		paper_code.insert(4, "J")
 		paper_code[-2] = paper_code[-2][-2]
 		paper_code = paper_code[1:-2]
-		print(paper_code)
+		# print(paper_code)
 	elif "/" in paper_code:
 		paper_code = paper_code.split("/")
 		# print(paper_code)
@@ -34,6 +34,6 @@ def output_crop(q_s_dict, output_type):
 	for question in copy_dict:
 		new_area = (0, area[3], width, int(copy_dict[question][1]+copy_dict[question][3])+50)
 		result = img.crop(new_area)
-		result.save("QPResults/"+"_".join(paper_code)+"_Q" + question + ".jpg")
+		result.save("QPResults/"+"_".join(paper_code)+"_Q" + question + ".{}".format(output_type))
 		area = new_area
 	return paper_code

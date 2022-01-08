@@ -17,3 +17,15 @@ PAPER CODE FORMAT:
 	f/m o/n
 - summer always 06_0417_12_2017_1.2
 
+
+Success criteria
+- 	Requires minimum user input
+- 	Parse through a PDF file and produce separate cropped images of questions and its respective answer.
+- 	Must output files with correctly formatted file names which includes:
+---- 	Course code
+---- 	Year and session 
+---- 	Paper 
+---- 	Question number
+- 	Each image file must contain the full question with all of its accompanying subquestions.
+- 	Each image file should have an accompanying mark scheme image.
+- 	Must be able to run on Cambridge IGCSE ICT exam paper 1 post 2017 syllabus and format change.

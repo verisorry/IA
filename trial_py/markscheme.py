@@ -1,7 +1,7 @@
 import make_folder, crop_table, read_question_ms, crop_ms, cleaning
 import numpy as np
 
-def markscheme_program(ms, paper_code):
+def markscheme_program(ms, paper_code, output_type):
 	(images, count) = make_folder.io_mac(ms)
 	ms_question_dict = {}
 	count_temp = 1
@@ -20,7 +20,7 @@ def markscheme_program(ms, paper_code):
 		question_dict = read_question_ms.sort_questions(question_dict, question_result)
 	(question_dict, pages_depth) = crop_ms.sorting_ms_dict(question_dict)
 	# print(question_dict)
-	crop_ms.cropping_ms(paper_code, x, y, x2, y2, question_dict, pages_depth)
+	crop_ms.cropping_ms(paper_code, x, y, x2, y2, question_dict, pages_depth, output_type)
 	cleaning.clean_up("MS")
 
 # markscheme_program("test2_ms.pdf", ['0417', '11', 'M', 'J'])

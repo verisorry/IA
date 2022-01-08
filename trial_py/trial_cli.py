@@ -12,10 +12,9 @@ console.print("Please choose [bold magenta]one[/] of the below Input File Struct
 table = Table(title="Input File Structure Choices", box=box.HEAVY_EDGE)
 table.add_column("Option", justify="center")
 table.add_column("Output format", justify="center")
-table.add_row("1", "Folder with multiple Question Paper and Mark Scheme files")
-table.add_row("2", "Single Question Paper file")
-table.add_row("3", "Single Mark Scheme file")
-table.add_row("4", "Pair of Question Paper and Mark Scheme")
+table.add_row("1", "Single Question Paper file")
+table.add_row("2", "Single Mark Scheme file")
+table.add_row("3", "Pair of Question Paper and Mark Scheme")
 console.print(table)
 
 input_file_structure = console.input("Enter [bold magenta]Option[/] here: ")
@@ -64,13 +63,6 @@ with progress as progress:
   while not progress.finished:
     progress.update(task1, advance=0.5)
     time.sleep(0.1)
-# from progress.bar import IncrementalBar 
-# import time
-# bar = IncrementalBar('Processing', max=20, suffix = '%(percent)d%%\t[%(elapsed_td)s/%(eta_td)s]')
-# for i in range(20):
-#     time.sleep(0.1)
-#     bar.next()
-# bar.finish()
 
 if output_format == "1":
   a = "jpg"
@@ -83,5 +75,3 @@ console.print("Please check [bold cyan]{}[/bold cyan] again, there should be a n
 console.print()
 console.rule("[bold blue]Press any key to terminate", style="bold red")
 console.input()
-
-  # one = input("\nPlease type the name of the past paper folder you would like to parse: ")
