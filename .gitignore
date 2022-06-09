@@ -33,6 +33,13 @@ GitHub.sublime-settings
 *.mp4
 .DS_Store
 *.DS_Store
+draft_code/.DS_Store
 __pycache__
 Forms.zip
-IGCSE\ ICT\ past\ paper\ archive
+IGCSE_ICT_PPQ/.DS_Store
+IGCSE_ICT_PPQ/2017/.DS_Store
+IGCSE_ICT_PPQ/2018/.DS_Store
+IGCSE_ICT_PPQ/2019/.DS_Store
+IGCSE_ICT_PPQ/2020/.DS_Store
+trial_py/.DS_Store
+trial_py/__pycache__
