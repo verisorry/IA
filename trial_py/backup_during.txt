@@ -1,0 +1,154 @@
+.
+├── MSResults
+│   ├── 0417_11_M_J_Q1.jpg
+│   ├── 0417_11_M_J_Q10.jpg
+│   ├── 0417_11_M_J_Q11.jpg
+│   ├── 0417_11_M_J_Q12.jpg
+│   ├── 0417_11_M_J_Q13.jpg
+│   ├── 0417_11_M_J_Q14.jpg
+│   ├── 0417_11_M_J_Q15.jpg
+│   ├── 0417_11_M_J_Q16.jpg
+│   ├── 0417_11_M_J_Q17.jpg
+│   ├── 0417_11_M_J_Q2.jpg
+│   ├── 0417_11_M_J_Q3.jpg
+│   ├── 0417_11_M_J_Q4.jpg
+│   ├── 0417_11_M_J_Q5.jpg
+│   ├── 0417_11_M_J_Q6.jpg
+│   ├── 0417_11_M_J_Q7.jpg
+│   ├── 0417_11_M_J_Q8.jpg
+│   └── 0417_11_M_J_Q9.jpg
+├── QPResults
+│   ├── 0417_11_M_J_Q1.jpg
+│   ├── 0417_11_M_J_Q10.jpg
+│   ├── 0417_11_M_J_Q11.jpg
+│   ├── 0417_11_M_J_Q12.jpg
+│   ├── 0417_11_M_J_Q13.jpg
+│   ├── 0417_11_M_J_Q14.jpg
+│   ├── 0417_11_M_J_Q15.jpg
+│   ├── 0417_11_M_J_Q16.jpg
+│   ├── 0417_11_M_J_Q17.jpg
+│   ├── 0417_11_M_J_Q2.jpg
+│   ├── 0417_11_M_J_Q3.jpg
+│   ├── 0417_11_M_J_Q4.jpg
+│   ├── 0417_11_M_J_Q5.jpg
+│   ├── 0417_11_M_J_Q6.jpg
+│   ├── 0417_11_M_J_Q7.jpg
+│   ├── 0417_11_M_J_Q8.jpg
+│   └── 0417_11_M_J_Q9.jpg
+├── __pycache__
+│   ├── cleaning.cpython-39.pyc
+│   ├── crop_final.cpython-39.pyc
+│   ├── crop_ms.cpython-39.pyc
+│   ├── crop_table.cpython-39.pyc
+│   ├── detect_table.cpython-39.pyc
+│   ├── init.cpython-39.pyc
+│   ├── input_manipulation.cpython-39.pyc
+│   ├── input_output.cpython-39.pyc
+│   ├── make_folder.cpython-39.pyc
+│   ├── markscheme.cpython-39.pyc
+│   ├── qs_mainpulation.cpython-39.pyc
+│   ├── question.cpython-39.pyc
+│   ├── question_score.cpython-39.pyc
+│   ├── read_question_ms.cpython-39.pyc
+│   └── trial.cpython-39.pyc
+├── backup.txt
+├── backup2.txt
+├── cleaning.py
+├── cli.py
+├── complete.jpg
+├── crop_final.py
+├── crop_ms.py
+├── crop_table.py
+├── cropped
+│   ├── cropped1.jpg
+│   ├── cropped10.jpg
+│   ├── cropped11.jpg
+│   ├── cropped12.jpg
+│   ├── cropped13.jpg
+│   ├── cropped14.jpg
+│   ├── cropped2.jpg
+│   ├── cropped3.jpg
+│   ├── cropped4.jpg
+│   ├── cropped5.jpg
+│   ├── cropped6.jpg
+│   ├── cropped7.jpg
+│   ├── cropped8.jpg
+│   └── cropped9.jpg
+├── init.py
+├── input_manipulation.py
+├── left
+│   ├── left_tab1.jpg
+│   ├── left_tab10.jpg
+│   ├── left_tab11.jpg
+│   ├── left_tab12.jpg
+│   ├── left_tab13.jpg
+│   ├── left_tab14.jpg
+│   ├── left_tab2.jpg
+│   ├── left_tab3.jpg
+│   ├── left_tab4.jpg
+│   ├── left_tab5.jpg
+│   ├── left_tab6.jpg
+│   ├── left_tab7.jpg
+│   ├── left_tab8.jpg
+│   └── left_tab9.jpg
+├── left_long.jpg
+├── main.py
+├── make_folder.py
+├── markscheme.py
+├── og
+│   ├── out0.jpg
+│   ├── out1.jpg
+│   ├── out10.jpg
+│   ├── out11.jpg
+│   ├── out12.jpg
+│   ├── out13.jpg
+│   ├── out14.jpg
+│   ├── out15.jpg
+│   ├── out2.jpg
+│   ├── out3.jpg
+│   ├── out4.jpg
+│   ├── out5.jpg
+│   ├── out6.jpg
+│   ├── out7.jpg
+│   ├── out8.jpg
+│   └── out9.jpg
+├── qs_mainpulation.py
+├── question.py
+├── question_score.py
+├── read_question_ms.py
+├── requirements.txt
+├── score.py
+├── table
+│   ├── header.jpg
+│   ├── table1.jpg
+│   ├── table10.jpg
+│   ├── table11.jpg
+│   ├── table12.jpg
+│   ├── table13.jpg
+│   ├── table14.jpg
+│   ├── table15.jpg
+│   ├── table16.jpg
+│   ├── table17.jpg
+│   ├── table18.jpg
+│   ├── table19.jpg
+│   ├── table2.jpg
+│   ├── table20.jpg
+│   ├── table21.jpg
+│   ├── table3.jpg
+│   ├── table4.jpg
+│   ├── table5.jpg
+│   ├── table6.jpg
+│   ├── table7.jpg
+│   ├── table8.jpg
+│   └── table9.jpg
+├── test.py
+├── test1.pdf
+├── test1_ms.pdf
+├── test2.pdf
+├── test2_ms.pdf
+├── test3.pdf
+├── test3_ms.pdf
+├── todo.txt
+└── trial_cli.py
+
+7 directories, 144 files

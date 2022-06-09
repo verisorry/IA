@@ -1,9 +1,6 @@
 import os, sys, cv2,re
 import numpy as np
-
 import time
-
-
 import init, question, markscheme
 
 def main_mac_question(qp, output_type):	

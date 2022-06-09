@@ -1,0 +1,82 @@
+.
+├── MSResults
+│   ├── 0417_11_M_J_Q1.jpg
+│   ├── 0417_11_M_J_Q10.jpg
+│   ├── 0417_11_M_J_Q11.jpg
+│   ├── 0417_11_M_J_Q12.jpg
+│   ├── 0417_11_M_J_Q13.jpg
+│   ├── 0417_11_M_J_Q14.jpg
+│   ├── 0417_11_M_J_Q15.jpg
+│   ├── 0417_11_M_J_Q16.jpg
+│   ├── 0417_11_M_J_Q17.jpg
+│   ├── 0417_11_M_J_Q2.jpg
+│   ├── 0417_11_M_J_Q3.jpg
+│   ├── 0417_11_M_J_Q4.jpg
+│   ├── 0417_11_M_J_Q5.jpg
+│   ├── 0417_11_M_J_Q6.jpg
+│   ├── 0417_11_M_J_Q7.jpg
+│   ├── 0417_11_M_J_Q8.jpg
+│   └── 0417_11_M_J_Q9.jpg
+├── QPResults
+│   ├── 0417_11_M_J_Q1.jpg
+│   ├── 0417_11_M_J_Q10.jpg
+│   ├── 0417_11_M_J_Q11.jpg
+│   ├── 0417_11_M_J_Q12.jpg
+│   ├── 0417_11_M_J_Q13.jpg
+│   ├── 0417_11_M_J_Q14.jpg
+│   ├── 0417_11_M_J_Q15.jpg
+│   ├── 0417_11_M_J_Q16.jpg
+│   ├── 0417_11_M_J_Q17.jpg
+│   ├── 0417_11_M_J_Q2.jpg
+│   ├── 0417_11_M_J_Q3.jpg
+│   ├── 0417_11_M_J_Q4.jpg
+│   ├── 0417_11_M_J_Q5.jpg
+│   ├── 0417_11_M_J_Q6.jpg
+│   ├── 0417_11_M_J_Q7.jpg
+│   ├── 0417_11_M_J_Q8.jpg
+│   └── 0417_11_M_J_Q9.jpg
+├── __pycache__
+│   ├── cleaning.cpython-39.pyc
+│   ├── crop_final.cpython-39.pyc
+│   ├── crop_ms.cpython-39.pyc
+│   ├── crop_table.cpython-39.pyc
+│   ├── detect_table.cpython-39.pyc
+│   ├── init.cpython-39.pyc
+│   ├── input_manipulation.cpython-39.pyc
+│   ├── input_output.cpython-39.pyc
+│   ├── make_folder.cpython-39.pyc
+│   ├── markscheme.cpython-39.pyc
+│   ├── qs_mainpulation.cpython-39.pyc
+│   ├── question.cpython-39.pyc
+│   ├── question_score.cpython-39.pyc
+│   ├── read_question_ms.cpython-39.pyc
+│   └── trial.cpython-39.pyc
+├── backup.txt
+├── backup2.txt
+├── cleaning.py
+├── cli.py
+├── crop_final.py
+├── crop_ms.py
+├── crop_table.py
+├── init.py
+├── input_manipulation.py
+├── main.py
+├── make_folder.py
+├── markscheme.py
+├── qs_mainpulation.py
+├── question.py
+├── question_score.py
+├── read_question_ms.py
+├── requirements.txt
+├── score.py
+├── test.py
+├── test1.pdf
+├── test1_ms.pdf
+├── test2.pdf
+├── test2_ms.pdf
+├── test3.pdf
+├── test3_ms.pdf
+├── todo.txt
+└── trial_cli.py
+
+3 directories, 76 files

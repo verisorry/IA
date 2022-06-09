@@ -58,7 +58,7 @@ def run_pdf(task_id: TaskID, qp_input_path: str, ms_input_path: str, output_form
     
     #if processing only question paper, clean up and end here
     if ms_input_path == None:
-        # cleaning.clean_up("QP")
+        cleaning.clean_up("QP")
         progress.update(task_id, advance=2)
 
     #if processing both, update total time on progress bar and start mark scheme process
@@ -90,7 +90,7 @@ def run_pdf(task_id: TaskID, qp_input_path: str, ms_input_path: str, output_form
         progress.update(task_id, advance=1)
         crop_ms.cropping_ms(paper_code, x, y, x2, y2, question_dict, pages_depth, output_format)
         progress.update(task_id, advance=1)
-        # cleaning.clean_up("MS")
+        cleaning.clean_up("MS")
         progress.update(task_id, advance=1)
 
     if done_event.is_set():
